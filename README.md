@@ -66,23 +66,16 @@ Java Developer • SQL Learner • Backend Engineer
 
 # 💻 Tech Stack
 
-<p align="center">
+<p>
 
 <img src="https://skillicons.dev/icons?i=html,css,js,java,python,mysql,mongodb,arduino,git,github,vscode"/>
-
-</p>
-
-<br>
-
-<p align="center">
-
-<img src="https://go-skill-icons.vercel.app/api/icons?i=figma,framer,canva"/>
-
-</p>
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/Adobe-FF0000?style=for-the-badge&logo=adobe&logoColor=white"/>
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=figma,framer,canva"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" width="48" height="48"/>
+  <img src="https://cdn.simpleicons.org/framer/0055FF" width="48" height="48"/>
+  <img src="https://cdn.simpleicons.org/apple/000000" width="48" height="48" title="Final Cut Pro"/>
+  <img src="https://cdn.simpleicons.org/anthropic/D97757" width="48" height="48" title="Claude"/>
+  <img src="https://cdn.simpleicons.org/googlegemini/4285F4" width="48" height="48" title="Gemini"/>
+  <img src="https://img.shields.io/badge/Adobe-FF0000?style=for-the-badge&logo=adobe&logoColor=white"/>
 
 </p>
 
