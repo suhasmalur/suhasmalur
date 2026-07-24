@@ -3,7 +3,7 @@ Hi 👋, I'm <span style="color:#4FC3F7;">Suhas</span>
 </h1>
 
 <h3 align="center">
-Java Developer • SQL Learner • Backend Engineer
+Java Developer • SQL • Backend Engineer
 </h3>
 
 <p align="center">
@@ -58,9 +58,6 @@ Java Developer • SQL Learner • Backend Engineer
 
 📧 **suhasalur17@gmail.com**
 
-⚡ Fun Fact
-
-> Consistency beats motivation.
 
 ---
 
@@ -95,18 +92,7 @@ Java Developer • SQL Learner • Backend Engineer
 
 ---
 
-### 🚀 More Projects Coming Soon...
 
-Currently working on improving my Java backend and web development skills.
-
-
----
-
-## 💻 LeetCode
-
-[![LeetCode Stats](https://leetcard.jacoblin.cool/Suhas_M_Alur?theme=dark&font=Poppins)](https://leetcode.com/u/Suhas_M_Alur/)
-
----
 
 # 👀 Visitor Count
 
@@ -138,17 +124,8 @@ Currently working on improving my Java backend and web development skills.
 
 ---
 
-<h3 align="center">
 
-⭐ Thanks for visiting my profile! ⭐
 
-</h3>
-
-<p align="center">
-
-💙 Let's build something awesome together.
-
-</p>
 <p align="center">
   <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/marvel-studios-cinematic-universe/6/66/A-stark-contrast.jpg" alt="Banner" width="70%">
 </p>
