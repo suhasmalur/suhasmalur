@@ -1,6 +1,6 @@
 <div align="center">
 
-# `Suhas Malur`
+# `Suhas M Alur`
 
 ### Frontend Developer · 2026 Graduate · Creative Technologist
 
