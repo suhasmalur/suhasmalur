@@ -82,7 +82,11 @@ I like working across the entire creative process — from designing an interfac
 ```
 
 ---
+---
+## 🔥 GitHub Energy
 
+[![GitHub Streak](https://streak-stats.demolab.com/?user=suhasmalur&theme=dark)](https://git.io/streak-stats)
+---
 # 🤝 Let's Connect
 
 <div align="center">
