@@ -36,7 +36,7 @@ I like working across the entire creative process — from designing an interfac
 ### 💻 Languages & Development
 
 <p>
-<img src="https://skillicons.dev/icons?i=c,cpp,java,python,javascript,html,css,nodejs" />
+<img src="https://skillicons.dev/icons?i=python,c,cpp,java,javascript,html,css,nodejs" />
 </p>
 
 ### 🗄️ Databases
