@@ -68,6 +68,9 @@ I like working across the entire creative process — from designing an interfac
 <img src="https://img.shields.io/badge/BLACKBOX%20AI-111111?style=for-the-badge&logoColor=white" />
 </p>
 
+### 💻 Work With
+<img src="https://skillicons.dev/icons?i=apple,windows,linux,Android" /></p>
+
 > I use AI as a development and creative tool — for exploration, debugging, prototyping, research, and improving workflows.
 
 # 🧠 Currently
