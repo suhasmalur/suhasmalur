@@ -3,64 +3,59 @@
      width="1000"
      height="280"
      role="img"
-     aria-label="Suhas Alur - Frontend Developer">
+     aria-label="Suhas M Alur - Frontend Developer">
 
   <defs>
 
     <!-- NAME GRADIENT -->
     <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FF4D6D">
+      <stop offset="0%" stop-color="#58A6FF">
         <animate attributeName="stop-color"
-          values="#FF4D6D;#C77DFF;#4CC9F0;#FF4D6D"
+          values="#58A6FF;#A855F7;#22D3EE;#58A6FF"
           dur="8s"
           repeatCount="indefinite"/>
       </stop>
 
-      <stop offset="50%" stop-color="#C77DFF">
+      <stop offset="50%" stop-color="#A855F7">
         <animate attributeName="stop-color"
-          values="#C77DFF;#4CC9F0;#FF4D6D;#C77DFF"
+          values="#A855F7;#22D3EE;#58A6FF;#A855F7"
           dur="8s"
           repeatCount="indefinite"/>
       </stop>
 
-      <stop offset="100%" stop-color="#4CC9F0">
+      <stop offset="100%" stop-color="#22D3EE">
         <animate attributeName="stop-color"
-          values="#4CC9F0;#FF4D6D;#C77DFF;#4CC9F0"
+          values="#22D3EE;#58A6FF;#A855F7;#22D3EE"
           dur="8s"
           repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
-
-    <!-- LINE GRADIENT -->
+    <!-- LINE -->
     <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FF4D6D" stop-opacity="0"/>
-      <stop offset="30%" stop-color="#FF4D6D"/>
-      <stop offset="65%" stop-color="#C77DFF"/>
-      <stop offset="100%" stop-color="#4CC9F0" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#58A6FF"/>
+      <stop offset="65%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
     </linearGradient>
-
 
     <!-- BACKGROUND GLOWS -->
-
     <radialGradient id="blobA">
-      <stop offset="0%" stop-color="#FF4D6D" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#FF4D6D" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0"/>
     </radialGradient>
 
     <radialGradient id="blobB">
-      <stop offset="0%" stop-color="#7B2CBF" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#7B2CBF" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.50"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
     </radialGradient>
 
     <radialGradient id="blobC">
-      <stop offset="0%" stop-color="#4CC9F0" stop-opacity="0.45"/>
-      <stop offset="100%" stop-color="#4CC9F0" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
     </radialGradient>
 
-
     <!-- GRID -->
-
     <pattern id="grid"
              width="40"
              height="40"
@@ -71,14 +66,13 @@
             stroke="#8B949E"
             stroke-width="0.5"
             opacity="0.10"/>
-
     </pattern>
 
-
     <!-- FRAME -->
-
     <clipPath id="frame">
-      <rect width="1000"
+      <rect x="0"
+            y="0"
+            width="1000"
             height="280"
             rx="18"/>
     </clipPath>
@@ -87,21 +81,18 @@
 
 
   <!-- FRAME -->
-
   <g clip-path="url(#frame)">
 
-
     <!-- BACKGROUND -->
-
     <rect width="1000"
           height="280"
           fill="#0B0F17"/>
 
 
-    <!-- GLOW 1 -->
+    <!-- GLOWING BLOBS -->
 
-    <circle cx="180"
-            cy="90"
+    <circle cx="170"
+            cy="80"
             r="230"
             fill="url(#blobA)">
 
@@ -114,8 +105,6 @@
 
     </circle>
 
-
-    <!-- GLOW 2 -->
 
     <circle cx="620"
             cy="220"
@@ -132,8 +121,6 @@
     </circle>
 
 
-    <!-- GLOW 3 -->
-
     <circle cx="880"
             cy="70"
             r="200"
@@ -149,16 +136,27 @@
     </circle>
 
 
-    <!-- GRID -->
+    <!-- MOVING GRID -->
 
-    <rect x="-40"
-          y="-40"
-          width="1080"
-          height="360"
-          fill="url(#grid)"/>
+    <g>
+
+      <rect x="-40"
+            y="-40"
+            width="1080"
+            height="360"
+            fill="url(#grid)"/>
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0,0;40,40;0,0"
+        dur="12s"
+        repeatCount="indefinite"/>
+
+    </g>
 
 
-    <!-- MAC WINDOW DOTS -->
+    <!-- TERMINAL DOTS -->
 
     <g opacity="0.9">
 
@@ -166,10 +164,13 @@
               cy="34"
               r="6"
               fill="#FF5F56">
-        <animate attributeName="opacity"
+
+        <animate
+          attributeName="opacity"
           values="1;0.35;1"
           dur="3s"
           repeatCount="indefinite"/>
+
       </circle>
 
 
@@ -177,11 +178,14 @@
               cy="34"
               r="6"
               fill="#FFBD2E">
-        <animate attributeName="opacity"
+
+        <animate
+          attributeName="opacity"
           values="1;0.35;1"
           dur="3s"
           begin="0.4s"
           repeatCount="indefinite"/>
+
       </circle>
 
 
@@ -189,31 +193,34 @@
               cy="34"
               r="6"
               fill="#27C93F">
-        <animate attributeName="opacity"
+
+        <animate
+          attributeName="opacity"
           values="1;0.35;1"
           dur="3s"
           begin="0.8s"
           repeatCount="indefinite"/>
+
       </circle>
 
     </g>
 
 
-    <!-- ORBIT -->
+    <!-- RIGHT SIDE ORBIT -->
 
     <g transform="translate(855,140)">
 
       <circle r="72"
               fill="none"
-              stroke="#C77DFF"
+              stroke="#A855F7"
               stroke-width="1"
               opacity="0.35"/>
 
       <circle r="48"
               fill="none"
-              stroke="#4CC9F0"
+              stroke="#22D3EE"
               stroke-width="1"
-              opacity="0.3"/>
+              opacity="0.30"/>
 
 
       <g>
@@ -221,7 +228,7 @@
         <circle cx="72"
                 cy="0"
                 r="4.5"
-                fill="#FF4D6D"/>
+                fill="#58A6FF"/>
 
         <animateTransform
           attributeName="transform"
@@ -239,7 +246,7 @@
         <circle cx="48"
                 cy="0"
                 r="3.5"
-                fill="#4CC9F0"/>
+                fill="#22D3EE"/>
 
         <animateTransform
           attributeName="transform"
@@ -257,7 +264,7 @@
         <circle cx="0"
                 cy="72"
                 r="3"
-                fill="#C77DFF"/>
+                fill="#A855F7"/>
 
         <animateTransform
           attributeName="transform"
@@ -285,12 +292,12 @@
             fill="#8B949E"
             letter-spacing="3">
 
-        <tspan fill="#4CC9F0">~/</tspan>whoami
+        <tspan fill="#58A6FF">~/</tspan>whoami
 
       </text>
 
 
-      <!-- NAME -->
+      <!-- YOUR NAME -->
 
       <text x="58"
             y="146"
@@ -299,52 +306,31 @@
             letter-spacing="1.5"
             fill="url(#nameGrad)">
 
-        SUHAS ALUR
+        SUHAS M ALUR
 
       </text>
 
 
-      <!-- NAME SHINE -->
-
-      <text x="58"
-            y="146"
-            font-size="52"
-            font-weight="700"
-            letter-spacing="1.5"
-            fill="white"
-            opacity="0">
-
-        SUHAS ALUR
-
-        <animate attributeName="opacity"
-          values="0;0;0.7;0;0"
-          keyTimes="0;0.42;0.50;0.58;1"
-          dur="7s"
-          repeatCount="indefinite"/>
-
-      </text>
-
-
-      <!-- SUBTITLE 1 -->
+      <!-- TAGLINE 1 -->
 
       <text x="62"
             y="182"
             font-size="20"
-            fill="#C9D1D9"
-            opacity="1">
+            fill="#C9D1D9">
 
         Frontend Developer
 
-        <animate attributeName="opacity"
-          values="1;1;0;0"
-          keyTimes="0;0.22;0.28;0.33"
-          dur="9s"
+        <animate
+          attributeName="opacity"
+          values="1;1;0;0;0;0"
+          keyTimes="0;0.18;0.23;0.33;0.85;1"
+          dur="12s"
           repeatCount="indefinite"/>
 
       </text>
 
 
-      <!-- SUBTITLE 2 -->
+      <!-- TAGLINE 2 -->
 
       <text x="62"
             y="182"
@@ -352,18 +338,19 @@
             fill="#C9D1D9"
             opacity="0">
 
-        Building Web Projects
+        Design + Code + AI
 
-        <animate attributeName="opacity"
-          values="0;0;1;1;0"
-          keyTimes="0;0.28;0.34;0.55;0.61"
-          dur="9s"
+        <animate
+          attributeName="opacity"
+          values="0;0;1;1;0;0"
+          keyTimes="0;0.18;0.23;0.45;0.50;1"
+          dur="12s"
           repeatCount="indefinite"/>
 
       </text>
 
 
-      <!-- SUBTITLE 3 -->
+      <!-- TAGLINE 3 -->
 
       <text x="62"
             y="182"
@@ -371,12 +358,13 @@
             fill="#C9D1D9"
             opacity="0">
 
-        Learning Python + DSA
+        Building Interactive Web Experiences
 
-        <animate attributeName="opacity"
-          values="0;0;1;1;0"
-          keyTimes="0;0.58;0.64;0.85;0.91"
-          dur="9s"
+        <animate
+          attributeName="opacity"
+          values="0;0;0;0;1;1;0"
+          keyTimes="0;0.45;0.50;0.55;0.60;0.85;1"
+          dur="12s"
           repeatCount="indefinite"/>
 
       </text>
@@ -388,16 +376,12 @@
             y="166"
             width="10"
             height="20"
-            fill="#FF4D6D">
+            fill="#58A6FF">
 
-        <animate attributeName="opacity"
+        <animate
+          attributeName="opacity"
           values="1;0;1"
           dur="1s"
-          repeatCount="indefinite"/>
-
-        <animate attributeName="x"
-          values="62;250;62"
-          dur="9s"
           repeatCount="indefinite"/>
 
       </rect>
@@ -405,7 +389,7 @@
     </g>
 
 
-    <!-- DIVIDER -->
+    <!-- SEPARATOR -->
 
     <path d="M60 214 L940 214"
           stroke="url(#lineGrad)"
@@ -414,7 +398,8 @@
           stroke-dasharray="880"
           stroke-dashoffset="880">
 
-      <animate attributeName="stroke-dashoffset"
+      <animate
+        attributeName="stroke-dashoffset"
         values="880;0;0;880"
         keyTimes="0;0.35;0.85;1"
         dur="10s"
@@ -432,89 +417,101 @@
           fill="#6E7681"
           letter-spacing="2">
 
-      HTML · CSS · JAVASCRIPT · PYTHON · JAVA · MYSQL
+      HTML · CSS · JAVASCRIPT · PYTHON · MYSQL · GIT
 
     </text>
 
 
     <!-- FLOATING PARTICLES -->
 
-    <circle cx="150"
-            cy="250"
-            r="2"
-            fill="#C77DFF">
+    <g>
 
-      <animate attributeName="cy"
-        values="270;20"
-        dur="9s"
-        repeatCount="indefinite"/>
+      <circle cx="150"
+              cy="250"
+              r="2"
+              fill="#A855F7">
 
-      <animate attributeName="opacity"
-        values="0;0.8;0"
-        dur="9s"
-        repeatCount="indefinite"/>
+        <animate
+          attributeName="cy"
+          values="270;20"
+          dur="9s"
+          repeatCount="indefinite"/>
 
-    </circle>
+        <animate
+          attributeName="opacity"
+          values="0;0.8;0"
+          dur="9s"
+          repeatCount="indefinite"/>
 
-
-    <circle cx="430"
-            cy="250"
-            r="1.6"
-            fill="#4CC9F0">
-
-      <animate attributeName="cy"
-        values="290;10"
-        dur="12s"
-        begin="1.5s"
-        repeatCount="indefinite"/>
-
-      <animate attributeName="opacity"
-        values="0;0.7;0"
-        dur="12s"
-        begin="1.5s"
-        repeatCount="indefinite"/>
-
-    </circle>
+      </circle>
 
 
-    <circle cx="700"
-            cy="250"
-            r="2.2"
-            fill="#FF4D6D">
+      <circle cx="430"
+              cy="250"
+              r="1.6"
+              fill="#22D3EE">
 
-      <animate attributeName="cy"
-        values="280;15"
-        dur="11s"
-        begin="3s"
-        repeatCount="indefinite"/>
+        <animate
+          attributeName="cy"
+          values="290;10"
+          dur="12s"
+          begin="1.5s"
+          repeatCount="indefinite"/>
 
-      <animate attributeName="opacity"
-        values="0;0.75;0"
-        dur="11s"
-        begin="3s"
-        repeatCount="indefinite"/>
+        <animate
+          attributeName="opacity"
+          values="0;0.7;0"
+          dur="12s"
+          begin="1.5s"
+          repeatCount="indefinite"/>
 
-    </circle>
+      </circle>
 
 
-    <circle cx="930"
-            cy="250"
-            r="1.8"
-            fill="#C77DFF">
+      <circle cx="700"
+              cy="250"
+              r="2.2"
+              fill="#58A6FF">
 
-      <animate attributeName="cy"
-        values="275;25"
-        dur="10s"
-        begin="4.5s"
-        repeatCount="indefinite"/>
+        <animate
+          attributeName="cy"
+          values="280;15"
+          dur="11s"
+          begin="3s"
+          repeatCount="indefinite"/>
 
-      <animate attributeName="opacity"
-        values="0;0.7;0"
-        dur="10s"
-        begin="4.5s"
-        repeatCount="indefinite"/>
+        <animate
+          attributeName="opacity"
+          values="0;0.75;0"
+          dur="11s"
+          begin="3s"
+          repeatCount="indefinite"/>
 
-    </circle>
+      </circle>
+
+
+      <circle cx="930"
+              cy="250"
+              r="1.8"
+              fill="#A855F7">
+
+        <animate
+          attributeName="cy"
+          values="275;25"
+          dur="10s"
+          begin="4.5s"
+          repeatCount="indefinite"/>
+
+        <animate
+          attributeName="opacity"
+          values="0;0.7;0"
+          dur="10s"
+          begin="4.5s"
+          repeatCount="indefinite"/>
+
+      </circle>
+
+    </g>
 
 
     <!-- BORDER -->
