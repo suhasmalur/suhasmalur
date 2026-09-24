@@ -1,34 +1,40 @@
 <div align="center">
 
-# `Suhas M Alur`
+<img src="https://raw.githubusercontent.com/suhasmalur/suhasmalur/main/banner.svg"
+     alt="Suhas M Alur - Frontend Developer"
+     width="100%" />
+
+<br/>
+
+<a href="https://github.com/suhasmalur">
+<img src="https://img.shields.io/badge/GitHub-suhasmalur-161b22?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+<a href="https://www.linkedin.com/in/suhasmalur/">
+<img src="https://img.shields.io/badge/LinkedIn-Suhas%20Malur-161b22?style=for-the-badge&logo=linkedin&logoColor=0A66C2">
+</a>
+
+<a href="mailto:suhasalur17@gmail.com">
+<img src="https://img.shields.io/badge/Email-suhasalur17%40gmail.com-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335">
+</a>
+
+<img src="https://komarev.com/ghpvc/?username=suhasmalur&style=for-the-badge&color=A855F7&label=PROFILE+VIEWS">
+
+</div>
+
+<div align="center">
 
 ### Frontend Developer · 2026 Graduate · Creative Technologist
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Building+clean+%26+interactive+web+experiences;Frontend+Developer+%7C+2026+Graduate;Design+%2B+Code+%2B+AI;Turning+ideas+into+working+products." alt="Typing SVG" />
 
 <br>
-
-<a href="https://github.com/suhasmalur">
-  <img src="https://komarev.com/ghpvc/?username=suhasmalur&style=for-the-badge&color=161b22&label=PROFILE+VIEWS" />
-</a>
-
-<a href="mailto:suhasalur17@gmail.com">
-  <img src="https://img.shields.io/badge/EMAIL-suhasalur17%40gmail.com-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335" />
-</a>
-
-<a href="https://www.linkedin.com/in/suhasmalur/">
-  <img src="https://img.shields.io/badge/LINKEDIN-Suhas%20Malur-161b22?style=for-the-badge&logo=linkedin&logoColor=0A66C2" />
-</a>
-
 </div>
-
----
 
 ## 👨‍💻 About Me
 
 I'm a **2026 engineering graduate and frontend developer** who enjoys combining **code, design, and AI** to build things that are actually useful.
 
-I like working across the entire creative process — from designing an interface in Figma or Framer to turning it into a functional web experience.
 
 
 
@@ -84,32 +90,16 @@ I like working across the entire creative process — from designing an interfac
 🚀  Looking for opportunities to build real products
 ```
 
----
----
+
+<div align="center">
+
 ## 🔥 GitHub Energy
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=suhasmalur&theme=dark)](https://git.io/streak-stats)
----
-# 🤝 Let's Connect
-
-<div align="center">
-
-<a href="mailto:suhasalur17@gmail.com">
-<img src="https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335" />
-</a>
-
-<a href="https://www.linkedin.com/in/suhasmalur/">
-<img src="https://img.shields.io/badge/LinkedIn-161b22?style=for-the-badge&logo=linkedin&logoColor=0A66C2" />
-</a>
-
-
 
 </div>
 
+
 <br>
-
-<div align="center">
-
-### `Design it. Build it. Ship it.`
 
 </div>
