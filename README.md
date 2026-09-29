@@ -24,6 +24,7 @@
 
 <div align="center">
 
+<br><br>
 ### Frontend Developer · 2026 Graduate · Creative Technologist
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Building+clean+%26+interactive+web+experiences;Frontend+Developer+%7C+2026+Graduate;Design+%2B+Code+%2B+AI;Turning+ideas+into+working+products." alt="Typing SVG" />
@@ -101,5 +102,7 @@ I'm a **2026 engineering graduate and frontend developer** who enjoys combining 
 
 
 <br>
-
+ <div align="center">
+     <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
+ </div>
 </div>
