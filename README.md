@@ -97,10 +97,6 @@ I'm a **2026 engineering graduate and frontend developer** who enjoys combining 
 
 <div align="center">
 
-## 🔥 GitHub Energy
-
-[![GitHub Streak](https://streak-stats.demolab.com/?user=suhasmalur&theme=dark)](https://git.io/streak-stats)
-
 </div>
 
 
