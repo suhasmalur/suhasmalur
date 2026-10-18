@@ -78,6 +78,7 @@ I'm a **2026 engineering graduate and frontend developer** who enjoys combining 
 <img src="https://img.shields.io/badge/BLACKBOX%20AI-111111?style=for-the-badge&logoColor=white" />
 </p>
 
+
 ### 💻 Work With
 <img src="https://skillicons.dev/icons?i=apple,windows,linux,Android" /></p>
 
@@ -94,6 +95,7 @@ I'm a **2026 engineering graduate and frontend developer** who enjoys combining 
 🚀  Looking for opportunities to build real products
 ```
 
+[![GitHub Streak](https://streak-stats.demolab.com/?user=suhasmalur)](https://git.io/streak-stats)
 
 <div align="center">
 
